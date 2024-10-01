@@ -1,1 +1,59 @@
-/* You can add global styles to this file, and also import other style files */
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.mat-form-field {
+  width: 100%;
+}
+
+mat-card{
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.mobile-label {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  table{
+    overflow-x: clip;
+  }
+  .mobile-label{
+    width: 5rem;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .mat-mdc-header-row {
+    display: none;
+  }
+  .mat-mdc-row { 
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0.5rem 1.5rem;
+    height: fit-content !important;
+    border-bottom-color: var(--mat-table-row-item-outline-color, var(--mat-app-outline, rgba(0, 0, 0, 0.12)));
+    border-bottom-width: var(--mat-table-row-item-outline-width, 1px);
+    border-bottom-style: solid;
+    letter-spacing: var(--mat-table-row-item-label-text-tracking, var(--mat-app-body-medium-tracking));
+    
+    .mat-mdc-cell{
+      width: 100% !important;
+      border-bottom: none;
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+    }
+  }
+}

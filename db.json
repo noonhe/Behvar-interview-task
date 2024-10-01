@@ -1,0 +1,55 @@
+{
+  "units": [
+    {
+      "id": "1",
+      "name": "Finance",
+      "status": "active",
+      "establishmentDate": "2020-01-01"
+    },
+    {
+      "id": "2",
+      "name": "IT",
+      "status": "active",
+      "establishmentDate": "2019-05-15"
+    },
+    {
+      "id": "3",
+      "name": "Sales",
+      "status": "inactive",
+      "establishmentDate": "2018-11-30"
+    }
+  ],
+  "employees": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "unitId": 1,
+      "gender": "male",
+      "mobileNumber": "1234567890",
+      "education": "bachelors"
+    },
+    {
+      "id": "2",
+      "name": "Jane Smith",
+      "unitId": 2,
+      "gender": "female",
+      "mobileNumber": "9876543210",
+      "education": "masters"
+    },
+    {
+      "id": "3",
+      "name": "Bob Johnson",
+      "unitId": 3,
+      "gender": "male",
+      "education": "phd"
+    },
+    {
+      "id": "f392",
+      "name": "Noon He",
+      "unitId": "1",
+      "gender": "female",
+      "mobileNumber": "9196842384",
+      "education": "bachelors"
+    }
+  ]
+}
